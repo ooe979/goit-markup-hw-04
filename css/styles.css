@@ -299,11 +299,35 @@ div .container {
   gap: 24px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .card-title {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.team-specialist {
+  margin-bottom: 8px;
+}
+
+.social-link-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-link-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #fff;
+  justify-content: center;
+  align-items: center;
 }
 
 /* section4 */
