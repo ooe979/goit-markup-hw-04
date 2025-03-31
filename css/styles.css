@@ -129,6 +129,7 @@ address {
 div .container {
   margin: 0;
   padding: 0;
+
   /* height: 600px; */
 }
 
@@ -138,6 +139,21 @@ div .container {
   padding-bottom: 188px;
 
   display: block;
+}
+
+.section-title {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-ofice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
