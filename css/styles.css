@@ -251,6 +251,7 @@ div .container {
   background-color: #f4f4fd;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .skil-list-title {
