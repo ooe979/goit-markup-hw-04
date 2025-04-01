@@ -208,7 +208,7 @@ div .container {
   min-width: 169px;
 }
 
-.order-button {
+.order-button.button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
