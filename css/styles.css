@@ -502,10 +502,10 @@ div .container {
   margin-right: 120px;
 }
 
-.footer-social {
+/* .footer-social {
   display: block;
   margin-bottom: 16px;
-}
+} */
 
 .footer-social-link-title {
   color: #fff;
@@ -524,4 +524,16 @@ div .container {
 .footer-social .social-link-icon:hover,
 .footer-social .social-link-icon:focus {
   background-color: #31d0aa;
+}
+
+.backdrop {
+  background-color: rgba(46, 47, 66, 0.4);
+  display: flex;
+}
+.modal {
+  width: 517px;
+  min-height: 794px;
+  border-radius: 15px;
+}
+.modal-close-btn {
 }
