@@ -362,6 +362,7 @@ div .container {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .app-title {
@@ -457,7 +458,7 @@ div .container {
 .footer > .container {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 120px;
+  margin-right: 120px;
 }
 
 .logo-heder-footer {
@@ -492,6 +493,8 @@ div .container {
 }
 
 .footer-container {
+  margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-social {
@@ -502,10 +505,15 @@ div .container {
 .footer-social-link-title {
   color: #fff;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer-social .social-link-list {
   gap: 16px;
+}
+
+.footer-social-icon {
+  fill: #f4f4fd;
 }
 
 .footer-social .social-link-icon:hover,
