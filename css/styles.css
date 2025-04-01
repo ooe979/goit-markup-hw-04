@@ -208,7 +208,7 @@ div .container {
   min-width: 169px;
 }
 
-.order-button.button {
+.order-button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -465,7 +465,7 @@ div .container {
 .footer > .container {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 120px;
+  /* margin-right: 120px; */
   align-items: baseline;
 }
 
