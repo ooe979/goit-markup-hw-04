@@ -459,6 +459,7 @@ div .container {
   display: flex;
   flex-wrap: wrap;
   margin-right: 120px;
+  align-items: baseline;
 }
 
 .logo-heder-footer {
@@ -494,7 +495,6 @@ div .container {
 
 .footer-container {
   margin-right: 120px;
-  align-items: baseline;
 }
 
 .footer-social {
